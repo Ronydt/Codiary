@@ -1,12 +1,13 @@
-import { IdentificationPost } from "../../../components/ui/IdentificationPost";
-import { PostComment } from "../../../components/ui/PostComment";
-import { PostHeader } from "../../../components/ui/PostHeader";
-import { PostSection } from "../../../components/ui/PostSection";
+import { CodeElement } from "@components/ui/CodeElement";
+import { IdentificationPost } from "@components/ui/IdentificationPost";
+import { PostComment } from "@components/ui/PostComment";
+import { PostHeader } from "@components/ui/PostHeader";
+import { PostSection } from "@components/ui/PostSection";
 
 export default function D04() {
   return (
     <section className="flex flex-col items-center min-h-lvh text-blackText font-poppins-regular">
-      <PostHeader />
+      <PostHeader date="04 OUT 2025" />
 
       <main className="w-full max-w-200 my-20">
         <IdentificationPost postTitle="Primeiro post, e chegada do meu monitor" />
@@ -33,12 +34,9 @@ export default function D04() {
           <p>
             Enquanto finalizava as telas do Codiary, me deparei com a seguinte
             dúvida: Qual método de rota usar na minha aplicação? Seria melhor
-            usar uma tag{" "}
-            <code className="bg-black/10 px-1.5 py-0.5 rounded-sm">a</code>, um{" "}
-            <code className="bg-black/10 px-1.5 py-0.5 rounded-sm">Button</code>{" "}
-            ou um{" "}
-            <code className="bg-black/10 px-1.5 py-0.5 rounded-sm">Link</code>{" "}
-            do React Router Dom?
+            usar uma tag <CodeElement element="a" />, um{" "}
+            <CodeElement element="Button" /> ou um{" "}
+            <CodeElement element="Link" /> do React Router Dom?
           </p>
 
           <p>
@@ -49,21 +47,18 @@ export default function D04() {
 
           <div className="mt-8 mb-12 space-y-5">
             <p>
-              <code className="bg-black/10 px-1.5 py-0.5 rounded-sm">a</code> é
-              usado para levar à rotas fora da nossa aplicação.
+              <CodeElement element="a" /> é usado para levar à rotas fora da
+              nossa aplicação.
             </p>
             <p>
-              <code className="bg-black/10 px-1.5 py-0.5 rounded-sm">
-                Button
-              </code>{" "}
-              é usado quando temos alguma ação de botão envolvida, como um
-              onClick.
+              <CodeElement element="Button" /> é usado quando temos alguma ação
+              de botão envolvida, como um onClick.
             </p>
             <p>
-              <code className="bg-black/10 px-1.5 py-0.5 rounded-sm">Link</code>{" "}
-              vem do React Router Dom e é usado quando queremos navegar entre as
-              rotas da nossa aplicação sem gerar carregamentos desnecessários
-              que possam comprometer performance.
+              <CodeElement element="Link" /> vem do React Router Dom e é usado
+              quando queremos navegar entre as rotas da nossa aplicação sem
+              gerar carregamentos desnecessários que possam comprometer
+              performance.
             </p>
           </div>
 

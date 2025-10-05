@@ -1,7 +1,13 @@
 import { LucideChevronLeft, LucideStar } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export function PostHeader() {
+interface IPostHeader {
+  date: string;
+}
+
+export function PostHeader({
+  date = "Adicione a data do post (03 SET 2005)",
+}: IPostHeader) {
   return (
     <header className="flex flex-row items-center justify-between w-full h-25 px-20 font-poppins-semiBold">
       <Link to="/">
@@ -12,7 +18,7 @@ export function PostHeader() {
       </Link>
 
       <span className="text-sm text-center text-[15px] font-poppins-regular text-blackText/50">
-        04 OUT 2025
+        {date}
       </span>
 
       <a

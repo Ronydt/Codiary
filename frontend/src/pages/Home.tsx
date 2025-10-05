@@ -1,7 +1,7 @@
-import { DailyArticles } from "../components/ui/DailyArticles";
-import { Goals } from "../components/ui/Goals";
-import { IdentificationProfile } from "../components/ui/IdentificationProfile";
-import { ProfileHeader } from "../components/ui/ProfileHeader";
+import { DailyArticles } from "@components/ui/DailyArticles";
+import { Goals } from "@components/ui/Goals";
+import { IdentificationProfile } from "@components/ui/IdentificationProfile";
+import { ProfileHeader } from "@components/ui/ProfileHeader";
 
 export default function Home() {
   return (
