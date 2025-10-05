@@ -1,1 +1,10 @@
+@import "./fonts.css";
 @import "tailwindcss";
+
+@theme {
+  --font-poppins-bold: Poppins-Bold, Sans-serif;
+  --font-poppins-semiBold: Poppins-SemiBold, Sans-serif;
+  --font-poppins-regular: Poppins-Regular, Sans-serif;
+
+  --color-blackText: #333;
+}
