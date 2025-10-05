@@ -6,8 +6,8 @@ export function ProfileHeader() {
       <span className="w-44 font-poppins-semiBold">Codiary</span>
 
       <span className="text-sm text-center text-[15px]">
-        “<span className="font-poppins-semiBold">Last post</span> - Dia de
-        aprendizado Serverless com AWS”
+        “<span className="font-poppins-semiBold">Mais recente</span> - Primeiro
+        post, e chegada do meu monitor”
       </span>
 
       <a

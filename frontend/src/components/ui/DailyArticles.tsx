@@ -10,11 +10,14 @@ export function DailyArticles() {
 
       <main className="flex flex-col space-y-2">
         <Link to="/ronydt/04OUT25">
-          <CardArticle day="04" title="Dia de aprendizado Serverless com AWS" />
+          <CardArticle day="05" title="Ainda sendo escrito..." />
         </Link>
 
         <Link to="/ronydt/04OUT25">
-          <CardArticle day="05" title="Atualização do meu portfólio e Github" />
+          <CardArticle
+            day="04"
+            title="Primeiro post, e chegada do meu monitor"
+          />
         </Link>
       </main>
     </section>

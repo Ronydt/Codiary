@@ -11,7 +11,7 @@ export function PostComment({
     <section className={`border border-black/20 rounded-lg p-6 ${twMarginTop}`}>
       <div className="flex flex-col space-y-4">
         <h1 className="font-poppins-semiBold"># Comentário</h1>
-        <main>{comment}</main>
+        <p>{comment}</p>
       </div>
     </section>
   );

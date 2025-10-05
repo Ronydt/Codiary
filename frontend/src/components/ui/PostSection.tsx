@@ -12,7 +12,7 @@ export function PostSection({
   return (
     <section className={`flex flex-col space-y-6 ${twMarginTop}`}>
       <h1 className="font-poppins-semiBold text-lg">{sectionTitle}</h1>
-      <main className="flex flex-col space-y-5">{children}</main>
+      <main className="flex flex-col space-y-4">{children}</main>
     </section>
   );
 }
