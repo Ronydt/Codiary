@@ -10,7 +10,7 @@ export function DailyArticles() {
 
       <main className="flex flex-col space-y-2">
         <Link to="/ronydt/05OUT25">
-          <CardArticle day="05" title="Um lindo domingo produtivo" />
+          <CardArticle day="05" title="Domingo de descanso ativo" />
         </Link>
 
         <Link to="/ronydt/04OUT25">
