@@ -1,4 +1,5 @@
 import { IdentificationPost } from "@components/ui/IdentificationPost";
+import { Markup } from "@components/ui/Markup";
 import { PostComment } from "@components/ui/PostComment";
 import { PostHeader } from "@components/ui/PostHeader";
 import { PostSection } from "@components/ui/PostSection";
@@ -13,19 +14,36 @@ export default function D06() {
         <IdentificationPost postTitle="AWS e plano de estudos em inglês" />
 
         <PostSection sectionTitle="Resumo do dia" twMarginTop="mt-20">
-          <p>O resumo do dia de hoje só será escrito à noite.</p>
+          <p>
+            O dia de hoje foi bem produtivo, logo pela manhã eu li um capítulo
+            do livro "Hábitos Atômicos" do James Cler, estudei um pouco de AWS
+            com a aula #05 da API do Foodiary, fiz os passos do método
+            "Aprendendo inglês de forma natural como uma crinça faria". Não
+            estudei programação tanto quanto deveria, mas o importante é que
+            estudei um pouco.
+          </p>
+          <p>
+            Estou finalizando o post na manhã do dia 07. Escrevi a maior parte
+            dele ontem, porém, não consegui finalizá-lo, estava muito cansado,
+            deveria ter finalizado, mas falhei com isso.
+          </p>
         </PostSection>
 
         <PostComment
           twMarginTop="mt-20"
-          comment="Eu vou escrevendo o post ao longo do dia, mas caso não consiga, à noite eu volto e documento tudo certinho, pode ficar tranquilo."
+          comment="Eu vou escrevendo o post ao longo do dia, mas caso não consiga,
+          à noite eu volto e documento tudo certinho, pode ficar tranquilo.
+          (só voltei no outro dia 😕)."
         />
 
         <PostSection sectionTitle="O que aprendi hoje?" twMarginTop="mt-20">
           <p>
-            Este é um campo que só é finalizado no final do dia... posso ir
-            aprendendo várias coisas e ir anotando aqui, porém, só pode ser
-            finalizado à noite.
+            Hoje, tive o prazer de aprender como analisar meus hábitos e
+            separa-los em bons ou ruins, o que me fez dar mais um passo à favor
+            de quem quero me tornar. Já em programação, embora tenha estudado um
+            pouco de Serverless na AWS, não consegui aprender muita coisa além
+            da teoria sobre rotas protegidas (no meu caso, protegidas com o
+            cognito authorizer).
           </p>
         </PostSection>
 
@@ -86,6 +104,60 @@ export default function D06() {
             tradução, mais ele cria conexões automáticas (sem que você precise
             pensar no seu idioma nativo)."
           />
+        </PostSection>
+
+        <PostSection sectionTitle="English paragraph" twMarginTop="mt-20">
+          <p>
+            It's my first english paragraph. Today i learn how to improve my
+            english like a baby. In gym i listened podcats like TED Talks and
+            "English podcast" on spotify. (i need learn expressions to improve
+            my vocabulary and my sentences). I know what this (this or there?)
+            paragraph has (has or have?) some mistakes. See you.
+          </p>
+        </PostSection>
+
+        <PostSection sectionTitle="Minhas leituras" twMarginTop="mt-20">
+          <p>
+            Com o capítulo "O homem que não parecia bem" que li hoje (59-66),
+            pude aprender duas coisas.
+          </p>
+          <p>
+            A primeira delas foi tornar meus hábitos mais conscientes para que
+            eu possa futuramente mudar os maus hábitos e adicionar bons novos
+            hábitos. Como fazer isso? É muito simples, basta criar uma lista com
+            meus hábitos e depois marcá-los como neutros (=), bons (+) ou ruins
+            (-).
+          </p>
+
+          <p>
+            Uma observação importante a se fazer é,{" "}
+            <Markup element="o que é um hábito ruim?" /> De forma simples, um
+            mau hábito é aquele que nos afasta da pessoa que queremos nos
+            tornar. Por exemplo, comer um pouco a mais pode ser um mau hábito
+            para quem quer perder peso, mas um bom hábito para quem quer ganhar
+            peso. Cabe a você perceber quais hábitos te levam ou te afastam do
+            seu eu desejado.
+          </p>
+
+          <p>
+            A segunda coisa que aprendi entra justamente nesse ponto, ela
+            aparece para ajudar a perceber os hábitos no dia a dia, seu nome é{" "}
+            <Markup element={`"apontar e falar"`} />. Ela é simplesmente
+            perceber o que está fazendo de errado e falar em voz alta, junto com
+            o que você deveria estar fazendo. Por exemplo, se eu estou deitado,
+            mas deveria estar estudando, então eu falo "estou deitado
+            procratinando, eu deveria estar estudando, pois é o que vai me fazer
+            alcançar os meus objetivos.", isso ajuda a perceber o erro mais
+            facilmente e nos incentiva a agir.
+          </p>
+        </PostSection>
+
+        <PostSection sectionTitle="Agradecimentos" twMarginTop="mt-20">
+          <p>
+            Gostaria de agradecer mais uma vez pelo seu tempo, obrigado por
+            estar mais um dia aqui comigo, fico feliz que esteja gostando dos
+            posts. Amanhã tem mais, boa noite!
+          </p>
         </PostSection>
       </main>
     </section>
