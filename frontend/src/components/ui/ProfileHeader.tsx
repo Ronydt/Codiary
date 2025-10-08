@@ -6,8 +6,8 @@ export function ProfileHeader() {
       <span className="w-44 font-poppins-semiBold">Codiary</span>
 
       <span className="text-sm text-center text-[15px]">
-        <span className="font-poppins-semiBold">Mais recente</span> - "AWS e
-        plano de estudos em inglês”
+        <span className="font-poppins-semiBold">Mais recente</span> - "Ensinando
+        inglês pra Clarinha”
       </span>
 
       <a
