@@ -9,6 +9,13 @@ export function DailyArticles() {
       </header>
 
       <main className="flex flex-col space-y-2">
+        <Link to="/ronydt/08OUT25">
+          <CardArticle
+            day="08"
+            title="Início dos meus estudos em inglês rumo à fluência"
+          />
+        </Link>
+
         <Link to="/ronydt/07OUT25">
           <CardArticle day="07" title="Ensinando inglês pra Clarinha" />
         </Link>
