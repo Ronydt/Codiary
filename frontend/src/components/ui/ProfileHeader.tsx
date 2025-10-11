@@ -1,13 +1,15 @@
 import { LucideStar } from "lucide-react";
 
 export function ProfileHeader() {
+  const lastPost = "iPhone novo de Jadynha";
+
   return (
     <header className="flex flex-row items-center justify-between w-full h-25 px-20">
       <span className="w-44 font-poppins-semiBold">Codiary</span>
 
       <span className="text-sm text-center text-[15px]">
-        <span className="font-poppins-semiBold">Mais recente</span> - "Início
-        dos meus estudos em inglês rumo à fluência”
+        <span className="font-poppins-semiBold">Mais recente</span> - "
+        {lastPost}"
       </span>
 
       <a
