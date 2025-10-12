@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 const NotFound = lazy(() => import("../pages/NotFound"));
 const Home = lazy(() => import("../pages/Home"));
 
+const POST_11OUT25 = lazy(() => import("../pages/posts/OUT/D11"));
 const POST_10OUT25 = lazy(() => import("../pages/posts/OUT/D10"));
 const POST_09OUT25 = lazy(() => import("../pages/posts/OUT/D09"));
 const POST_08OUT25 = lazy(() => import("../pages/posts/OUT/D08"));
@@ -18,6 +19,7 @@ export function Router() {
       <Routes>
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Home />} />
+        <Route path="/ronydt/11OUT25" element={<POST_11OUT25 />} />
         <Route path="/ronydt/10OUT25" element={<POST_10OUT25 />} />
         <Route path="/ronydt/09OUT25" element={<POST_09OUT25 />} />
         <Route path="/ronydt/08OUT25" element={<POST_08OUT25 />} />

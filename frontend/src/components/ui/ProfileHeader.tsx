@@ -1,7 +1,7 @@
 import { LucideStar } from "lucide-react";
 
 export function ProfileHeader() {
-  const lastPost = "iPhone novo de Jadynha";
+  const lastPost = "Criação da página inicial para o BS";
 
   return (
     <header className="flex flex-row items-center justify-between w-full h-25 px-20">
