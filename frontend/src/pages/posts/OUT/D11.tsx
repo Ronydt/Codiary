@@ -17,6 +17,15 @@ export default function D11() {
             estudar backend serverless na AWS com Serverless Framework (IaC),
             então vou optar por escrever o posr amanhã.
           </p>
+          <p>
+            Voltei as 23:26 do outro dia (domingo) para escrever o post e acabou
+            que eu esqueci a maior parte das coisas (à partir de amanhã eu volto
+            a escrever o post após chegar da academia), lembro que estudei
+            apenas um pouco de backend, porém, criei uma hero section apenas
+            para mostrar a um cliente o que somos capazes de fazer, caso ele
+            queira fechar um contrato. Amanhã (segunda-feira) entrarei em
+            contato com vários outros clientes.
+          </p>
         </PostSection>
 
         <PostComment
